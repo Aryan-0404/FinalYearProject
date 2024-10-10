@@ -13,7 +13,7 @@ import LoginSignup from "./Pages/LoginSignup";
 import Confirm from "./Components/Confirm/Confirm";
 
 
-export const backend_url = 'http://localhost:4000';
+export const backend_url = 'https://finalyearproject-backend.onrender.com';
 export const currency = '₹';
 
 function App() {
