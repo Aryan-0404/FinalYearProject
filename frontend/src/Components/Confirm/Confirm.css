@@ -1,0 +1,54 @@
+.confirm {
+    margin: 100px 10%;
+}
+
+.confirm h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.confirm-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.confirm-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+}
+
+.confirm-item img {
+    height: 100px;
+    margin-right: 20px;
+}
+
+.confirm-item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm-item-details h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.confirm-item-details p {
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ff5a5a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #ff3a3a;
+}
